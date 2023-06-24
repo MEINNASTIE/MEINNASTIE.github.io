@@ -1,0 +1,218 @@
+<!--Pacoon Pill Reminder App 
+    Copyright (C) 2023  Meinna
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacoon - Your Friendliest Pill Reminder</title>
+    <link rel="stylesheet" href="pill_reminder.css">
+   
+    <link rel="icon" type="image/x-icon" href="/images/raccoon-svgrepo-com.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/f6adf96490.js"></script>
+</head>
+
+    <span class="bm-pl__blob bm-pl__blob--r"></span>
+    <span class="bm-pl__blob bm-pl__blob--g"></span>
+
+<body>
+    <div class="hey_there">
+      <img src="/images/curved-arrow.png" alt="arrow_pointing">
+      <img src="images/curved-arrow-dark.png" alt="arrow_pointing">  
+    </div>
+    <div class="hey-there-click">Try me out :)</div>
+    
+    <div class="wrap_it_all_up">
+    <nav>
+        <div class="pacoon_name">
+            <h3>Pacoon</h3>
+        </div>
+        <div class="dark_mode">
+            <button onclick="darkMode()"><i class="fa-solid fa-moon pulsate"></i></button>
+        </div>
+        <section class="nav_primary">
+                <ul>
+                  <li><a href="#">Get App</a></li>
+                  <li><a href="#">About</a></li>
+                </ul>
+        </section>
+    </nav>
+
+    <main>
+       
+        <div class="wrapper">
+            <div class="card_wrapper">
+                <section class="card main_card">
+                    <span class="pacoon_logo_card">
+                        <img src="/images/raccoon-svgrepo-com.png" alt="pacoon_your_friendly_racoon_pill_reminder_logo" style="width: 45px;">
+                        <img src="/images/raccoon-svgrepo-com(1).png" alt="pacoon_your_friendly_racoon_pill_reminder_logo" style="width: 45px;">
+                    </span>
+
+                    <div class="card_reminder">
+                        <div class="one_box">
+                            <p>8:30 am</p>
+                            <i class="fa-solid fa-pills"></i>
+                        </div>
+                        <div class="one_box">
+                            <p>Vitamin b12</p>
+                                <label class="switch" name="switch" id="switch">
+                                    <input type="checkbox" id="switch" name="switch" checked>
+                                    <span class="slider round"></span>
+                                </label>
+                        </div>
+                    </div>
+
+                    <div class="card_reminder">
+                        <div class="one_box">
+                            <p>17:15 am</p>
+                            <i class="fa-solid fa-glass-water"></i>
+                        </div>
+                        <div class="one_box">
+                        <p>Drink Water</p>
+                            <label class="switch" for="switch" id="switch">
+                                <input type="checkbox" name="switch" id="switch" checked>
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="card_plus pulsate">
+                        <button><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <div class="card_toggle_button_settings">
+                        <i class="fa-solid fa-moon pulsate" onclick="myFunction()"></i>
+                        <i class="fa-solid fa-ellipsis-vertical pulsate"></i>
+
+                    </div>
+                </section>
+            </div>
+                 
+        </div>
+        
+        <div class="pacoon_logo"><img src="images/raccoon-svgrepo-com(1).png" alt="pacoon_logo_a racoon_funny_image"></div>
+
+        <div class="wrapper_secondary">
+            <h2>About</h2>
+            <p>Remembering to take medication can be a struggle for anyone. That is why Pacoon is here to jump right in and take care of your routine! With its intuitive interface, easy-to-red reminders, and built-in features for accessibility, you'll never forget to take your medication again.</p>
+            <p>And don't worry, Pacoon was designed to be accessible for anyone and open free source so there is no data tracking, its completely secure and confidential.</p>
+            <p>Begin your medication routine today :) </p>
+        </div>
+
+        <div class="wrapper_fourth">
+            <div class="card_wrapper_two">
+                <section class="card main_card">
+                    <span class="pacoon_logo_card">
+                        <img src="/images/raccoon-svgrepo-com(1).png" alt="pacoon_your_friendly_racoon_pill_reminder_logo" style="width: 45px;">
+                        <img src="/images/raccoon-svgrepo-com(1).png" alt="pacoon_your_friendly_racoon_pill_reminder_logo" style="width: 45px;">
+                    </span>
+
+                
+                    <div class="form_wrapper">
+                        <form id="card_form" name="card_form">
+                            <label for="cardtime">Choose time:</label><br>
+                            <div class="card_time">
+                                <input type="time" name="cardtime" id="card_form" required value="00:00"> 
+                            </div>
+                            
+                            <label for="cardweek">Choose the day:</label>
+                            <div class="small_grid_week">
+                                <span>Mon</span>
+                                <span>Tue</span>
+                                <span>Wed</span>
+                                <span>Thu</span>
+                                <span>Fri</span>
+                                <span>Sat</span>
+                                <span>Sun</span>
+                            </div>
+                            
+                            <div class="card_icons_choose">
+                                <span><i class="fa-solid fa-pills"></i></span>
+                                <span><i class="fa-solid fa-spoon"></i></span>
+                                <span><i class="fa-solid fa-glass-water"></i></span>
+                            </div>
+                            
+                            <label for="Nroutine">Routine name:</label><br>
+                            <input type="text" id="Nroutine" name="Nroutine" required><br>
+                            
+                            <label for="Droutine">Description:</label><br>
+                            <input type="text" id="Droutine" name="Droutine" required><br>
+
+                            <label for="image">Upload a picture</label><br>
+                            <p id="choose_file" class="pulsate">Choose File</p>
+                            <div class="card_plus pulsate">
+                                <button type="submit"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                        </form>
+                    </div>
+
+                </section>
+            </div>
+
+            <div class="fourth_card_exp">
+                <h2>Options to choose from</h2>
+                <p>Which do not give a headache the moment you see them with "A what the..."</p>
+                <ul>
+                    <li>Choose your time and date that comes with a gentle ringtone and notification</li>
+                    <li>Description for your routine and an option to upload a picture that helps you visualize the needs of your medication</li>
+                    <li>Icons to choose from with upcoming future ones, to fit your own tale</li>
+                </ul>
+            </div>
+        </div>
+
+        </div>
+        <div class="wrapper_third">
+            <div class="left_aside">
+                <h2>Accessibility</h2>
+                <p><i class="fa-solid fa-pills"></i>Ease on reading should be comforted for everyone. Pacoon ensures the typography used is a minimum of <b>18px</b> and maintains a contrast between text and backgrounds, including those with visual impairments. Which is why there is a <b>Toggle button</b>.</p>
+                <p><i class="fa-solid fa-spoon"></i>Equal care was taken on the gentle animation and hover options that do not create noise or confuse the eye focus.</p>
+                <p><i class="fa-solid fa-glass-water"></i>To understand more and learn about how applications or websites can be curated, check out <b><a href="https://www.w3.org/TR/WCAG21/#abstract" target="_blank">Here</a></b></p>
+                
+                <p><b>Let's together work towards a friendlier future!</b></p>
+            </div>
+            <div class="right_aside">
+                <div class="right_aside_flex">
+                    <div class="light_mode_preview">
+                        <p>Light</p>
+                    </div>
+                    <div class="dark_mode_preview">
+                        <p>Dark</p>
+                    </div> 
+                </div>
+                
+                <p>You can customize your interface for a better experience.</p>
+                <h2>Minimalistic and easy to navigate</h2>
+                <p>Customizable font size coming soon...</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Made with <i class="fa-solid fa-heart"></i> by Meinna</p>
+        <p>Licensed by GPL <br>and nurtured by WCAG 2.1</p>
+        <p>No other Rights reserved</p>
+    </footer>
+    </div>
+    <script>
+        function darkMode() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>
