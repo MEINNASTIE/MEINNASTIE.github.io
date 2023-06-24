@@ -47,7 +47,8 @@
             <h3>Pacoon</h3>
         </div>
         <div class="dark_mode">
-            <button onclick="darkMode()"><i class="fa-solid fa-moon pulsate"></i></button>
+            <button onclick="darkMode()" class="moon"><i class="fa-solid fa-moon pulsate"></i></button>
+            <button onclick="darkMode()" class="sun"><i class="fa-regular fa-sun pulsate"></i></button>
         </div>
         <section class="nav_primary">
                 <ul>
@@ -69,7 +70,7 @@
 
                     <div class="card_reminder">
                         <div class="one_box">
-                            <p>8:30 am</p>
+                            <p>8:30</p>
                             <i class="fa-solid fa-pills"></i>
                         </div>
                         <div class="one_box">
@@ -83,13 +84,13 @@
 
                     <div class="card_reminder">
                         <div class="one_box">
-                            <p>17:15 am</p>
+                            <p>17:15</p>
                             <i class="fa-solid fa-glass-water"></i>
                         </div>
                         <div class="one_box">
                             <p>Drink Water</p>
-                                <label class="switch" name="switch" id="switch">
-                                <input type="checkbox" id="switch" name="switch" checked>
+                                <label class="switch" name="switch_two" id="switch">
+                                <input type="checkbox" id="switch" name="switch_two" checked>
                                 <span class="slider round"></span>
                         </label>
                         </div>
@@ -98,9 +99,9 @@
                         <button><i class="fa-solid fa-plus"></i></button>
                     </div>
                     <div class="card_toggle_button_settings">
-                        <i class="fa-solid fa-moon pulsate" onclick="darkMode()"></i>
+                        <i class="fa-solid fa-moon pulsate moon" onclick="darkMode()"></i>
+                        <i class="fa-regular fa-sun pulsate sun" onclick="darkMode()"></i>
                         <i class="fa-solid fa-ellipsis-vertical pulsate"></i>
-
                     </div>
                 </section>
             </div>
@@ -130,10 +131,10 @@
                            
                             <div class="card_time">
                                <p>Choose Time:</p>
-                               <p>12:00 AM</p>
+                               <p>12:00</p>
                             </div>
                             
-                            <label for="cardweek">Choose the day:</label>
+                            <p>Choose the day:</p>
                             <div class="small_grid_week">
                                 <span>Mon</span>
                                 <span>Tue</span>
@@ -143,7 +144,7 @@
                                 <span>Sat</span>
                                 <span>Sun</span>
                             </div>
-                            
+                            <p>Choose an icon:</p>
                             <div class="card_icons_choose">
                                 <span><i class="fa-solid fa-pills"></i></span>
                                 <span><i class="fa-solid fa-spoon"></i></span>
@@ -156,7 +157,7 @@
                             <label for="Droutine">Description:</label><br>
                             <input type="text" id="Droutine" name="Droutine" required><br>
 
-                            <label for="image">Upload a picture</label><br>
+                            <p>Upload a picture:</p>
                             <p id="choose_file" class="pulsate">Choose File</p>
                             <div class="card_plus pulsate">
                                 <button type="submit"><i class="fa-solid fa-plus"></i></button>

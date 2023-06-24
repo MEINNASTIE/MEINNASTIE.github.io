@@ -2,14 +2,14 @@
 
 .dark-mode {
     background-color: var(--darkmode);
-    color: white !important;
+    color: var(--font-color) !important;
 }
 
 .dark-mode .fa-moon,
 .dark-mode .nav_primary ul li a,
 .dark-mode h2, .dark-mode h3
  {
-    color: white !important;
+    color: var(--font-color) !important;
 }
 
 .dark-mode .card {
@@ -44,7 +44,7 @@
 }
 
 .dark-mode .card_plus .fa-plus {
-    color: white;
+    color: var(--font-color);
 }
 
 .dark-mode .card_plus button {
@@ -56,7 +56,7 @@
 }
 
 .dark-mode .card_toggle_button_settings .fa-ellipsis-vertical {
-    color: white;
+    color: var(--font-color);
 }
 
 .dark-mode .pacoon_logo_card img:nth-child(2) {
@@ -77,4 +77,14 @@
 
 .dark-mode .bm-pl__blob--r {
     background: #1b160a;
+}
+
+.dark-mode .moon {
+    display: none;
+}
+
+.dark-mode .sun {
+    font-size: 2.2em;
+    display: block;
+    color: var(--font-color);
 }
