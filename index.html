@@ -20,6 +20,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pacoon - Your Friendliest Pill Reminder</title>
     <link rel="stylesheet" href="pill_reminder.css">
+    <link rel="stylesheet" href="media_queries.css">
+    <link rel="stylesheet" href="dark_mode.css">
    
     <link rel="icon" type="image/x-icon" href="/images/raccoon-svgrepo-com.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -85,18 +87,18 @@
                             <i class="fa-solid fa-glass-water"></i>
                         </div>
                         <div class="one_box">
-                        <p>Drink Water</p>
-                            <label class="switch" for="switch" id="switch">
-                                <input type="checkbox" name="switch" id="switch" checked>
+                            <p>Drink Water</p>
+                                <label class="switch" name="switch" id="switch">
+                                <input type="checkbox" id="switch" name="switch" checked>
                                 <span class="slider round"></span>
-                            </label>
+                        </label>
                         </div>
                     </div>
                     <div class="card_plus pulsate">
                         <button><i class="fa-solid fa-plus"></i></button>
                     </div>
                     <div class="card_toggle_button_settings">
-                        <i class="fa-solid fa-moon pulsate" onclick="myFunction()"></i>
+                        <i class="fa-solid fa-moon pulsate" onclick="darkMode()"></i>
                         <i class="fa-solid fa-ellipsis-vertical pulsate"></i>
 
                     </div>
@@ -125,9 +127,10 @@
                 
                     <div class="form_wrapper">
                         <form id="card_form" name="card_form">
-                            <label for="cardtime">Choose time:</label><br>
+                           
                             <div class="card_time">
-                                <input type="time" name="cardtime" id="card_form" required value="00:00"> 
+                               <p>Choose Time:</p>
+                               <p>12:00 AM</p>
                             </div>
                             
                             <label for="cardweek">Choose the day:</label>

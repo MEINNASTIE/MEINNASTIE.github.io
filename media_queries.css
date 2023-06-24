@@ -1,0 +1,418 @@
+/* MEDIA QUERIES **************************/
+
+
+@media screen and (min-width: 320px) and (max-width: 520px) {
+    .wrapper {
+        background-image: url(images/blob-scene-haikei.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: fit-content;
+        padding-top: 140px;
+    }
+
+    .dark-mode .wrapper {
+        background-image: url(images/blob-scene.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: fit-content;
+    }
+
+    .wrapper .card_wrapper {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 80px;  
+    }
+
+    div.card_reminder {
+        font-size: 0.6em;
+    }
+
+    .card_toggle_button_settings {
+        padding-top: 70px;
+    }
+
+    .card_wrapper,
+    .wrapper_secondary,
+    .footer,
+    .wrapper_third,
+    .bm-pl__blob,
+    .wrapper_fourth {
+        position: static;
+        height: fit-content;
+        display: block;
+        width: 100%;
+        padding: 30px;
+        margin: 0;
+        text-align: center;
+    } 
+
+    .card .main_card {
+        display: block;
+    }
+
+    .bm-pl__blob {
+        display: none;
+    }
+
+    .wrapper_fourth {
+        padding: 0;
+    }
+
+    .small_grid_week span {
+        padding: 4px;
+    }
+
+    .wrapper_fourth .fourth_card_exp {
+        margin: 0;
+        padding-right: 0;
+        padding: 30px;
+    } 
+    .wrapper_third .left_aside {
+        width: 100%;
+    }   
+
+    .card_wrapper_two .card {
+        margin: 0;
+        padding: 40px 0;
+    }
+
+    .hey_there,
+    .hey-there-click {
+        display: none;
+    }
+
+    .pacoon_logo {
+        margin-top: -50px;
+    }
+
+    .card_wrapper_two {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .fourth_card_exp {
+        padding-top: 90px;
+        padding-bottom: 40px;
+    }
+
+    .fourth_card_exp h2 {
+        line-height: 70px;
+    }
+
+    .fourth_card_exp ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .wrapper_third {
+        padding: 100px 45px;
+    }
+
+    .right_aside p:nth-child(2) {
+        text-align: center;
+    }
+
+    .card_wrapper_two .card {
+        width: 90%;
+    }
+
+    .small_grid_week {
+        display: flex;
+        flex-wrap: wrap;  
+    }
+
+    .wrapper_third h2::first-letter,
+    .wrapper_fourth h2::first-letter
+     {
+        font-size: 1em;
+    }
+
+    .card_toggle_button_settings {
+        margin-top: 80px;
+    }
+
+    nav {
+        display: block;
+    }
+    .dark_mode button {
+        position: absolute;
+        top: 8px;
+        right: 30px;
+    }
+
+    .dark_mode_preview,
+    .light_mode_preview {
+        width: 130px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 521px) and (max-width: 768px) {
+    .wrapper {
+        background-image: url(images/blob-scene-haikei.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: fit-content;
+    }
+
+    .dark-mode .wrapper {
+        background-image: url(images/blob-scene.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: fit-content;
+    }
+
+    .wrapper .card_wrapper {
+        display: flex;
+        justify-content: center;
+        padding-top: 130px;
+        padding-bottom: 80px;
+    }
+
+    .card_wrapper,
+    .wrapper_secondary,
+    .footer,
+    .wrapper_third,
+    .bm-pl__blob,
+    .wrapper_fourth {
+        position: static;
+        height: fit-content;
+        display: block;
+        width: 100%;
+        padding: 30px;
+        margin: 0;
+    }
+
+    .card .main_card {
+        display: block;
+    }
+
+    .bm-pl__blob {
+        display: none;
+    }
+
+    .wrapper_fourth .fourth_card_exp {
+        margin: 0;
+        padding-right: 0;
+    }
+    .wrapper_third .left_aside {
+        width: 100%;
+    }
+
+    .card_wrapper_two .card {
+        margin: 0;
+    }
+
+    .hey_there,
+    .hey-there-click {
+        display: none;
+    }
+
+    .pacoon_logo {
+        margin-top: -50px;
+    }
+
+    .card_wrapper_two {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .fourth_card_exp {
+        padding-top: 90px;
+        padding-bottom: 40px;
+    }
+
+    .fourth_card_exp h2 {
+        line-height: 70px;
+    }
+
+    .wrapper_third {
+        padding: 100px 45px;
+    }
+
+    .right_aside p:nth-child(2) {
+        text-align: center;
+    }
+      
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	.wrapper {
+        background-image: url(images/blob-scene-haikei.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: fit-content;
+    }
+
+    .dark-mode .wrapper {
+        background-image: url(images/blob-scene.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: fit-content;
+    }
+
+    .wrapper .card_wrapper {
+        display: flex;
+        justify-content: center;
+        padding-top: 130px;
+        padding-bottom: 80px;
+    }
+
+	.card_wrapper,
+    .wrapper_secondary,
+    .footer,
+    .wrapper_third,
+    .bm-pl__blob,
+    .wrapper_fourth {
+        position: static;
+        height: fit-content;
+        display: block;
+        width: 100%;
+        padding: 30px 50px;
+        margin: 0;
+    }
+
+    .card .main_card {
+        display: block;
+    }
+
+    .bm-pl__blob {
+        display: none;
+    }
+    
+    .wrapper_fourth .fourth_card_exp {
+        margin: 0;
+        padding-right: 0;
+    }
+    .wrapper_third .left_aside {
+        width: 100%;
+    }
+
+    .card_wrapper_two .card {
+        margin: 0;
+    }
+
+    .hey_there,
+    .hey-there-click {
+        display: none;
+    }
+
+    .pacoon_logo {
+        margin-top: -50px;
+    }
+
+    .card_wrapper_two {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .fourth_card_exp {
+        padding-top: 90px;
+        padding-bottom: 40px;
+    }
+
+    .fourth_card_exp h2 {
+        line-height: 70px;
+    }
+
+    .wrapper_third {
+        padding: 100px 45px;
+    }
+
+    .right_aside p:nth-child(2) {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1865px) {
+    .wrapper {
+        background-image: url(images/blob-scene-haikei.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: fit-content;
+    }
+
+    .dark-mode .wrapper {
+        background-image: url(images/blob-scene.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: fit-content;
+    }
+
+    .wrapper .card_wrapper {
+        display: flex;
+        justify-content: center;
+        padding-top: 130px;
+        padding-bottom: 80px;
+    }
+
+	.card_wrapper,
+    .wrapper_secondary,
+    .footer,
+    .wrapper_third,
+    .bm-pl__blob,
+    .wrapper_fourth {
+        position: static;
+        height: fit-content;
+        display: block;
+        width: 100%;
+        padding: 30px 50px;
+        margin: 0; 
+    }
+
+    .card .main_card {
+        display: block;
+    }
+
+    .bm-pl__blob {
+        display: none;
+    }
+    
+    .wrapper_fourth .fourth_card_exp {
+        margin: 0;
+        padding-right: 0;
+    }
+    .wrapper_third .left_aside {
+        width: 100%;
+    }
+
+    .card_wrapper_two .card {
+        margin: 0;
+    }
+
+    .hey_there,
+    .hey-there-click {
+        display: none;
+    }
+
+    .pacoon_logo {
+        margin-top: -50px;
+    }
+
+    .card_wrapper_two {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .fourth_card_exp {
+        padding-top: 90px;
+        padding-bottom: 40px;
+    }
+
+    .fourth_card_exp h2 {
+        line-height: 70px;
+    }
+
+    .wrapper_third {
+        padding: 100px 45px;
+    }
+
+    .right_aside p:nth-child(2) {
+        text-align: center;
+    }
+
+}
