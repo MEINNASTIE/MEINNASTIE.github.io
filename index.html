@@ -18,12 +18,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pacoon Your Friendly Pill Reminder">
     <title>Pacoon - Your Friendliest Pill Reminder</title>
-    <link rel="stylesheet" href="pill_reminder.css">
-    <link rel="stylesheet" href="media_queries.css">
-    <link rel="stylesheet" href="dark_mode.css">
+    <link rel="stylesheet" href="/styles/pill_reminder.css">
+    <link rel="stylesheet" href="/styles/media_queries.css">
+    <link rel="stylesheet" href="/styles/dark_mode.css">
    
-    <link rel="icon" type="image/x-icon" href="/images/raccoon-svgrepo-com.svg">
+    <link rel="icon" type="image/x-icon" href="./images/raccoon-svgrepo-com(1).png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -36,15 +37,14 @@
 
 <body>
     <div class="hey_there">
-      <img src="/images/curved-arrow.png" alt="arrow_pointing">
-      <img src="images/curved-arrow-dark.png" alt="arrow_pointing">  
+      <img src="./images/curved-arrow.png" alt="arrow_pointing">
+      <img src="./images/curved-arrow-dark.png" alt="arrow_pointing">  
     </div>
     <div class="hey-there-click">Try me out :)</div>
     
-    <div class="wrap_it_all_up">
     <nav>
         <div class="pacoon_name">
-            <h3>Pacoon</h3>
+            <h3><a href="index.html">Pacoon</a></h3>
         </div>
         <div class="dark_mode">
             <button onclick="darkMode()" class="moon"><i class="fa-solid fa-moon pulsate"></i></button>
@@ -52,8 +52,8 @@
         </div>
         <section class="nav_primary">
                 <ul>
-                  <li><a href="#">Get App</a></li>
-                  <li><a href="#">About</a></li>
+                  <li><a href="get_app.html">Get App</a></li>
+                  <li><a href="about.html">About</a></li>
                 </ul>
         </section>
     </nav>
@@ -64,8 +64,8 @@
             <div class="card_wrapper">
                 <section class="card main_card">
                     <span class="pacoon_logo_card">
-                        <img src="/images/raccoon-svgrepo-com.png" alt="pacoon_your_friendly_racoon_pill_reminder_logo" style="width: 45px;">
-                        <img src="/images/raccoon-svgrepo-com(1).png" alt="pacoon_your_friendly_racoon_pill_reminder_logo" style="width: 45px;">
+                        <img src="./images/raccoon-svgrepo-com.png" alt="pacoon_your_friendly_racoon_pill_reminder_logo" style="width: 45px;">
+                        <img src="./images/raccoon-svgrepo-com(1).png" alt="pacoon_your_friendly_racoon_pill_reminder_logo" style="width: 45px;">
                     </span>
 
                     <div class="card_reminder">
@@ -108,7 +108,7 @@
                  
         </div>
         
-        <div class="pacoon_logo"><img src="images/raccoon-svgrepo-com(1).png" alt="pacoon_logo_a racoon_funny_image"></div>
+        <div class="pacoon_logo"><img src="./images/raccoon-svgrepo-com(1).png" alt="pacoon_logo_a racoon_funny_image"></div>
 
         <div class="wrapper_secondary">
             <h2>About</h2>
@@ -121,8 +121,8 @@
             <div class="card_wrapper_two">
                 <section class="card main_card">
                     <span class="pacoon_logo_card">
-                        <img src="/images/raccoon-svgrepo-com(1).png" alt="pacoon_your_friendly_racoon_pill_reminder_logo" style="width: 45px;">
-                        <img src="/images/raccoon-svgrepo-com(1).png" alt="pacoon_your_friendly_racoon_pill_reminder_logo" style="width: 45px;">
+                        <img src="./images/raccoon-svgrepo-com(1).png" alt="pacoon_your_friendly_racoon_pill_reminder_logo" style="width: 45px;">
+                        <img src="./images/raccoon-svgrepo-com(1).png" alt="pacoon_your_friendly_racoon_pill_reminder_logo" style="width: 45px;">
                     </span>
 
                 
@@ -211,7 +211,7 @@
         <p>Licensed by GPL <br>and nurtured by WCAG 2.1</p>
         <p>No other Rights reserved</p>
     </footer>
-    </div>
+
     <script>
         function darkMode() {
            var element = document.body;
@@ -220,3 +220,5 @@
     </script>
 </body>
 </html>
+
+<!--<meinna>If you found this it means you purposely inspected the html, in that case welcome ;) and have a nice day stranger!</meinna>-->

@@ -2,11 +2,9 @@
 
 
 @media screen and (min-width: 320px) and (max-width: 520px) {
-    .card_wrapper_two .main_card {
-        height: 780px;
-    }
+    
     .wrapper {
-        background-image: url(images/blob-scene-haikei.svg);
+        background-image: url(../images/blob-scene-haikei.svg);
         background-repeat: no-repeat;
         background-size: cover;
         height: fit-content;
@@ -14,7 +12,7 @@
     }
 
     .dark-mode .wrapper {
-        background-image: url(images/blob-scene.svg);
+        background-image: url(../images/blob-scene.svg);
         background-repeat: no-repeat;
         background-size: cover;
         height: fit-content;
@@ -151,18 +149,27 @@
         width: 130px;
         height: 100px;
     }
+
+    .wrapper_fifth {
+        height: 2500px;
+        padding: 150px 80px 80px 80px;
+        font-size: 1em;
+        text-align: center;
+    }
+
 }
 
 @media screen and (min-width: 521px) and (max-width: 768px) {
     .wrapper {
-        background-image: url(images/blob-scene-haikei.svg);
+        background-image: url(../images/blob-scene-haikei.svg);
         background-repeat: no-repeat;
         background-size: cover;
         height: fit-content;
+        padding-top: 45px;
     }
 
     .dark-mode .wrapper {
-        background-image: url(images/blob-scene.svg);
+        background-image: url(../images/blob-scene.svg);
         background-repeat: no-repeat;
         background-size: cover;
         height: fit-content;
@@ -240,19 +247,41 @@
     .right_aside p:nth-child(2) {
         text-align: center;
     }
+
+    .wrapper_fourth .fourth_card_exp {
+        padding-left: 0;
+    }
+
+    nav {
+        display: block;
+    }
+    .dark_mode button {
+        position: absolute;
+        top: 8px;
+        right: 30px;
+    }
+
+    .wrapper_fifth {
+        height: 2000px;
+        padding: 150px 80px 80px 80px;
+        font-size: 1.2em;
+        z-index: 300;
+        position: relative;
+        overflow: hidden;
+    }
       
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 	.wrapper {
-        background-image: url(images/blob-scene-haikei.svg);
+        background-image: url(../images/blob-scene-haikei.svg);
         background-repeat: no-repeat;
         background-size: cover;
         height: fit-content;
     }
 
     .dark-mode .wrapper {
-        background-image: url(images/blob-scene.svg);
+        background-image: url(../images/blob-scene.svg);
         background-repeat: no-repeat;
         background-size: cover;
         height: fit-content;
@@ -333,6 +362,13 @@
 
     .wrapper_fourth .fourth_card_exp {
         padding-left: 0;
+    }
+
+    .wrapper_fifth {
+        height: 1300px;
+        padding: 150px 80px 80px 80px;
+        font-size: 1.2em;
+        overflow: hidden;
     }
 }
 

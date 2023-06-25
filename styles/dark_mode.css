@@ -88,3 +88,13 @@
     display: block;
     color: var(--font-color);
 }
+
+.dark-mode .blobby_bg {
+    background-image: url(../images/blob-scene.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dark-mode .pacoon_name a {
+    color: var(--font-color);
+}

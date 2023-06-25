@@ -50,6 +50,10 @@ button {
     background-size: cover;
 } */
 
+.pacoon_name a {
+    text-decoration: none;
+    color: var(--darkmode);
+}
 
 /* NAVIGATION **************/
 
@@ -159,7 +163,7 @@ nav h3 {
 
 .card {
     width: 500px;
-    height: 700px;
+    /*height: 700px;*/
     border-radius: 17px;
     background: linear-gradient(145deg, #dafec2, #b8d5a3);
     box-shadow:  21px 21px 43px #a1bb8f,
@@ -203,10 +207,12 @@ nav h3 {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .card_plus .fa-plus {
     font-size: 2em;
+    cursor: pointer;
 }
 
 .card_plus button {
@@ -221,6 +227,7 @@ nav h3 {
     display: flex;
     justify-content: space-between;
     margin-top: 130px;
+    cursor: pointer;
 }
 
 .card_toggle_button_settings .fa-solid {
@@ -457,6 +464,7 @@ form {
     border-radius: 17px;
     color: black;
     text-align: center;
+    cursor: pointer;
 }
 
 .small_grid_week {
@@ -486,6 +494,7 @@ form {
     justify-content: space-evenly;
     margin-top: 20px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 .card_icons_choose .fa-solid:hover {
     color: var(--primary-color);
@@ -644,4 +653,31 @@ footer {
 	}
 }
 
+/**************** GET APP PAGE **********************/
+
+.wrapper_fifth {
+    height: 100vh;
+    padding: 150px 80px 80px 80px;
+    font-size: 1.2em;
+    overflow: hidden;
+}
+
+.wrapper_fifth h2::first-letter {
+    font-size: 4em;
+}
+
+.wrapper_fifth p {
+    line-height: 45px;
+}
+
+.racoon_image {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.blobby_bg {
+    background-image: url(../images/blob-scene-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
