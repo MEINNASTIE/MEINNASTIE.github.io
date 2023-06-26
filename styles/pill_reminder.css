@@ -144,6 +144,10 @@ nav h3 {
     color: var(--darkmode);
 }
 
+.nav_primary ul li a:hover {
+    text-decoration: underline;
+}
+
 
 /* HEADER with CARD display **************/
 
